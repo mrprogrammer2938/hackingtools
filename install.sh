@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 # This code write by (Ms.nope)
+clear
 echo "installing..."
 echo ""
 echo "    ███████████████████████████████████████▀█"
