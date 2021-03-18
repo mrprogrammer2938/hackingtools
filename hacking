@@ -1,0 +1,571 @@
+#!/usr/bin/python3
+# This code write by (ms.nope)
+#   ❚█══Hack Tools══█❚
+# version 
+import os
+import time
+import random
+import socket
+import requests
+class color:
+    green = '\033[92m'
+    red = '\033[91m'
+    End = '\033[0m'
+    blue = '\033[96m'
+    line = '\033[4m'
+    darkblue = '\033[34m'
+HackTools = "\nHackTools ~>>> "
+Error = "Error HackTools!"
+ex = color.green + "Exiting package!" + color.End
+continue_Hacktool = "Do you want to continue? [y/n] "
+color_r=[color.green + """
+██████████
+██■████■██
+██████████
+██████████
+█ █ █ █ █    (Hack Tools!)
+██████████      
+""" + color.End, color.green +
+"""
+┈┈┈╲┈┈┈┈╱
+┈┈┈╱VIRUZ▔▔╲
+┈┈┃┈▇┈┈▇┈┃
+╭╮┣━━━━━━┫╭╮
+┃┃┃┈┈┈┈┈┈┃┃┃
+╰╯┃┈┈┈┈┈┈┃╰╯
+┈┈╰┓┏━━┓┏╯
+┈┈┈╰╯┈┈╰╯""" + color.End, color.blue + """
+    . 
+    ║\.
+    ║▒\.
+    ║▒▒\
+    ║░▒ ║
+    ║░▒║    (HackTools)
+    ║░▒ ║   (Ms.nope)
+    ║░▒║    (version)
+    ║░▒║    
+    ║░▒ ║ """ + color.red + "----[ https://github.com/msprogrammer2938/ ]----- " + color.blue + """
+    ║░▒║
+    ║░▒ ║
+    ║░▒║
+▓▓▓▓▓▓▓
+     ]█▓[
+     ]█▓[
+     ]█▓[\n""" + color.End,color.red + """
+    __________ 
+   ║▒▒▒▒▒▒▒▒▒▒║
+   ║▒▒▒▒▒▒▒▒▒▒║
+   ║▒▒▒▒▒▒▒▒▒▒║
+   ║▒▒▒▒▒▒▒▒▒▒║
+   ║▒▒▒▒▒▒▒▒▒▒║
+   ║▒▒▒▒▒▒▒▒▒▒║
+  ╔════════════╗
+  ║██████████╚╗
+  ║██╔══╗█╔═╗█║
+  ║██║╬╔╝█╚╗║█║ """ + color.green + "Hacking tools!" + color.red + """
+  ║██╚═╝█║█╚╝█║
+  ╚╗█████████═╝
+     ╚╗║╠╩╩╩╩╩╝
+      ║║┈┈┈█▐█████▒.｡oO """ + color.green + "usage: hacking" + color.red + """
+      ║██╠╦╦╦╗
+      ╚╗██████
+       ╚════╝\n""" + color.End,color.green + '''
+
+
+88  88    db     dP""b8 88  dP     888888  dP"Yb   dP"Yb  88     .dP"Y8 
+88  88   dPYb   dP   `" 88odP        88   dP   Yb dP   Yb 88     `Ybo." 
+888888  dP__Yb  Yb      88"Yb        88   Yb   dP Yb   dP 88  .o o.`Y8b 
+88  88 dP""""Yb  YboodP 88  Yb       88    YbodP   YbodP  88ood8 8bodP' 
+''' + color.End, color.darkblue + '''                                                                   
+        m    m               #            mmmmmmm               ""#          
+        #    #  mmm    mmm   #   m           #     mmm    mmm     #     mmm  
+        #mmmm# "   #  #"  "  # m"            #    #" "#  #" "#    #    #   " 
+        #    # m"""#  #      #"#             #    #   #  #   #    #     """m 
+        #    # "mm"#  "#mm"  #  "m           #    "#m#"  "#m#"    "mm  "mmm" \n''' + color.End, color.blue + """
+     ╔╦╦╦╦╦╦╦╦╦╦╗
+     ╠╬╬╬╬╬╬╬╬╬╬╣
+     ╠╬╬█╬╬╬╬█╬╬╣
+     ╠╬╬╬╬╬╬╬╬╬╬╣ (Hack Tools !)
+     ╠╬████████╬╣
+     ╠╬█╬╬╬╬╬╬█╬╣	
+     ╚╩╩╩╩╩╩╩╩╩╩╝ """ + color.End, color.End + """
+      ▄ .▄ ▄▄▄·  ▄▄· ▄ •▄   ▄▄▄▄▄            ▄▄▌  .▄▄ · 
+      ██▪▐█▐█ ▀█ ▐█ ▌▪█▌▄▌▪  •██   ▄█▀▄  ▄█▀▄ ██•  ▐█ ▀. 
+      ██▀▐█▄█▀▀█ ██ ▄▄▐▀▀▄·   ▐█.▪▐█▌.▐▌▐█▌.▐▌██▪  ▄▀▀▀█▄ 
+      ██▌▐▀▐█ ▪▐▌▐███▌▐█.█▌   ▐█▌·▐█▌.▐▌▐█▌.▐▌▐█▌▐▌▐█▄▪▐█
+      ▀▀▀ · ▀  ▀ ·▀▀▀ ·▀  ▀   ▀▀▀  ▀█▄▀▪ ▀█▄▀▪.▀▀▀  ▀▀▀▀ """, color.green + """
+      █████████
+      █▄█████▄█
+      █▼▼▼▼▼
+      █        (Hi!)
+      █▲▲▲▲▲
+      █████████
+      ██ ██""" + color.End, color.blue + """
+      ┈┈┈┈┈┈▕▔╲
+      ┈┈┈┈┈┈┈▏▕
+      ┈┈┈┈┈┈┈▏▕▂▂▂
+      ▂▂▂▂▂▂╱┈▕▂▂▂▏
+      ▉▉▉▉▉┈┈┈▕▂▂▂▏""" + color.red + "usage: hacking :)" + color.blue + """
+      ▉▉▉▉▉┈┈┈▕▂▂▂▏
+      ▔▔▔▔▔▔╲▂▕▂▂▂▏""" + color.End]
+random.shuffle(color_r)
+HackToolslogo = color_r[0]
+def hacking():
+    time.sleep(1)
+    os.system("clear")
+    print(HackToolslogo + "\n")
+    print(color.red + """
+______________________________________________""" + color.blue + """
+  ----[ This code write by (ms.nope)  ]----
+  [version 1.0.0]""" + color.red + """
+  [[  ms.nope github account : https://github.com/msprogrammer2938/ ]]---""" + color.darkblue + """
+   *   usage:    hackingtool          ---[for start ]--  *""" + color.line + """
+                         (Hack tools)""" + color.red + """
+                   ______________________________________________ \n""" + color.End)
+    print("\n{1}.Web Hacking")
+    print("{2}.Password Attack")
+    print("{3}.Explotion tools")
+    print("{4}.Wirless testing")
+    print("{5}.soial Engineer")
+    print("{6}.cam Hackers")
+    print("{7}.web informtion")
+    print("{8}.About Us")
+    print("{9}.Help")
+    print("{10}.update and uninstall")
+    print("{99}.Exit")
+    choose = str(input(HackTools))
+    if(str(choose) == '1'):
+      webhacking()
+    elif(str(choose) == '2'):
+        passwordattack()
+    elif(str(choose) == '3'):
+        explotion()
+    elif(str(choose) == '4'):
+        wirlessattack()
+    elif(str(choose) == '5'):
+        soialEngineer()
+    elif(str(choose) == '6'):
+        camhackers()
+    elif(str(choose) == '7'):
+        webinfo()
+    elif(str(choose) == '8'):
+        about()
+    elif(str(choose) == '9'):
+        help()
+    elif(str(choose) == '10'):
+        upun()
+    elif(str(choose) == '99'):
+        time.sleep(1)
+        os.system("clear")
+        time.sleep(1)
+        print(ex)
+        exit(1)
+    elif(str(choose) == 'exit'):
+        time.sleep(1)
+        os.system("clear")
+        time.sleep(1)
+        print(ex)
+        exit(1)
+    elif(str(choose) == 'quit'):
+        time.sleep(1)
+        os.system("clear")
+        time.sleep(1)
+        print(ex)
+        exit(1)
+    elif(str(choose) == 'q'):
+        time.sleep(1)
+        os.system("clear")
+        time.sleep(1)
+        print(ex)
+        exit(1)
+    elif(str(choose) == 'e'):
+        time.sleep(1)
+        os.system("clear")
+        time.sleep(1)
+        print(ex)
+        exit(1)
+    elif(str(choose) == ''):
+        hacking()
+    else:
+        os.system("clear")
+        print(choose + color.red + "not found!" + color.End)
+        tryer = str(input("press Enter... "))	
+        if(str(tryer) == ''):
+          hacking()
+        else:
+            hacking()
+def webhacking():
+     time.sleep(1)
+     os.system("clear")
+     print(color.blue)
+     os.system("figlet web Hacking")
+     print(color.End)
+     print("{1}.brutex")
+     print("{2}.serverscan")
+     print("{3}.hack web")
+     print("{4}.mein menu")
+     choose2 = str(input(HackTools))
+     if(str(choose2) == '1'):
+       os.system("clear")
+       os.system("figlet brutex")
+       os.system("git clone https://github.com/1N3/brutex")
+       time.sleep(1)
+       print(color.green + "brutex installed!" + color.End)
+       time.sleep(2)
+       try1 = str(input("press Enter... "))
+       if(str(try1) == ''):
+         webhacking()
+       else:
+           webhacking()
+     elif(str(choose2) == '2'):
+         time.sleep(1)
+         os.system("clear")
+         os.system("figlet serverscan")
+         os.system("git clone https://github.com/msprogrammer2938/serverscan")
+         time.sleep(1)
+         print(color.green + "serverscan installed!" + color.End)
+         time.sleep(2)
+         try2 = str(input("press Enter... "))
+         if(str(try2) == ''):
+           webhacking
+         else:
+             webhacking()
+     elif(str(choose2) == '3'):
+         os.system("clear")
+         os.system("figlet brutex")
+         os.system("git clone https://github.com/topics/web-hacking/ hackweb/")
+         time.sleep(1)
+         print(color.green + "hack web installed!" + color.End)
+         time.sleep(2)
+         try3 = str(input("press Enter... "))
+         if(str(try3) == ''):
+           webhacking()
+         else:
+             webhacking()
+     elif(str(choose2) == '4'):
+         hacking()
+     elif(str(choose2) == '' or ' ' or '\n' or '\r'):
+         webhacking()
+def passwordattack():
+    time.sleep(1)
+    os.system("clear")
+    print(color.blue)
+    os.system("figlet password Attack")
+    print(color.End)
+    print("{1}.cupp")
+    print("{2}.password-Attack")
+    print("{3}.password cracker")
+    print("{4}.mein menu")
+    choose3 = str(input(HackTools))
+    if(str(choose3) == '1'):
+      os.system("clear")
+      os.system("figlet cupp")
+      os.system("git clone https://github.com/Mebus/cupp")
+      time.sleep(1)
+      print(color.green + "cupp installed!" + color.End)
+      time.sleep(2)
+      try6 = str(input("press Enter... "))
+      if(str(try6) == ''):
+        os.system("hacking")
+      else:
+          os.ssytem("hacking")
+    elif(str(choose3) == '2'):
+        os.system("clear")
+        os.system("figlet password attack")
+        os.system("git clone https://github.com/topics/password-attacks/ passwordattack/")
+        time.sleep(1)
+        print(color.green + "password attack installed!" + color.End)
+        time.sleep(2)
+        try7 = str(input("press Enter... "))
+        if(str(try7) == ''):
+          os.system("hacking")
+        else:
+            os.ssytem("hacking")
+    elif(str(choose3) == '3'):
+        os.system("clear")
+        os.system("figlet password cracker")
+        os.system("git clone https://github.com/mthambipillai/password-cracker/ passwordcracker/")
+        time.sleep(1)    
+        print(color.green + "password cracker installed!" + color.white)
+        time.sleep(2)
+        try8 = str(input("press Enter... "))
+        if(str(try8) == ''):
+          passwordattacking()
+        else:
+            passwordattacking()
+    elif(str(choose3) == '4'):
+        hacking()
+    elif(str(choose3) == '' or ' ' or '\n' or '\r'):
+        passwordattacking()
+def explotion():
+    time.sleep(1)
+    os.system("clear")
+    print(color.blue)
+    os.system("figlet Explotion")
+    print(color.End)
+    print("{1}.metsaploit")
+    print("{2}.explotion feiled")
+    print("{3}.isf")
+    print("{4}.mein menu")
+    choose4 = str(input(HackTools))
+    if(str(choose4) == '1'):
+      os.system("clear")
+      os.system("figlet metsaploit")
+      os.system("git clone https://github.com/rapid7/metasploit-framework/ metsaploit/") 
+      time.sleep(1)    
+      print(color.green + "metsaploit installed!" + color.End)
+      time.sleep(2)
+      try9 = str(input("press Enter... "))
+      if(str(try9) == ''):
+            explotion()  
+      else:
+          explotion()
+    elif(str(choose4) == '2'):
+        os.system("clear")
+        os.system("figlet explotion feiled")
+        os.system("git cone https://github.com/tyrantgit/ExplosionField/ exploitsionfield")
+        time.sleep(1)
+        print(color.green + "exploitionfield installed" + color.End)
+        time.sleep(2)
+        try10 = str(input("press Enter... "))    
+        if(str(try10) == ''):
+          explotion()
+        else:
+            explotion()
+    elif(str(choose4) == '3'):
+        os.system("clear")
+        os.system("figlet isf")
+        os.system("git clone https://github.com/w3h/isf")    
+        time.sleep(1)
+        print(color.green + "isf installed!" + color.End)
+        time.sleep(2)
+        try11 = str(input("press Enter... "))
+        if(str(try11) == ''):
+          explotion()
+        else:
+            explotion()
+    elif(str(choose4) == '4'):
+        hacking()
+    elif(str(choose4) == '5'):
+        explotion()
+def wirlessattack():
+    time.sleep(1)
+    os.system("clear")
+    print(color.line)
+    os.system("figlet wirless Attack")
+    print(color.End)
+    print("{1}.wirless Attack")
+    print("{2}.wifi attack")
+    print("{3}.wifi arsenal")
+    print("{4}.mein menu")
+    choose2 = str(input(HackTools))
+    if(str(choose5) == '1'):
+      os.system("clear")
+      os.system("figlet wirless Attack")
+      os.system("git clone https://github.com/topics/wireless-attacks/ wirlessattack/")
+      time.sleep(1)
+      print(color.green + "wirless attack installed!" + color.End)
+      time.sleep(2)
+      try12 = str(input("press Enter... "))
+      if(str(try12) == ''):
+        wirlessattack()
+      else:
+          wirlessattack()
+    elif(str(choose5) == '2'):
+        os.system("clear")
+        os.system("figlet wifi attack")
+        os.system("git clone https://github.com/AaronVigal/WiFi-Attack/ wifiattack/")
+        time.sleep(1)
+        print(color.green + "wifi attack installed" + color.End)
+        time.sleep(2)
+        try13 = str(input("press Enter... "))
+        if(str(try13) == ''):
+          wirlessattack()
+        else:
+             wirlessattack()
+    elif(str(choose5) == '3'):
+        os.system("clear")
+        os.system("figlet wifi arsenal")
+        os.system("git clone https://github.com/0x90/wifi-arsenal/ wifiarsenal/")
+        time.sleep(1)
+        print(color.green + "wifi arsenal installed" + color.End)
+        time.sleep(2)
+        try1 = str(input("press Enter... "))
+        if(str(try1) == ''):
+          wirlessattack()
+        else:
+            wirlessattack()
+    elif(str(choose5) == '4'):
+        hacking()
+    elif(str(choose5) == '' or ' ' or '\n' or '\r'):
+        wirlessattack()
+def soialEngineer():
+    time.sleep(1)
+    os.system("clear")
+    print(color.green)
+    os.system("figlet soial Engineer")
+    print("{1}.soial Engineer stoolkit")
+    print("{2}.mein menu")
+    choose6 = str(input(HackTools))
+    if(str(choose6) == '1'):
+      time.sleep(1)
+      os.system("clear")
+      os.system("figlet setoolkit")
+      os.system("git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit")
+      time.sleep(1)
+      print(color.green + "setoolkit installed!" + color.End)
+      time.sleep(2)
+      try14 = str(input("press Enter... "))
+      if(str(try14) == ''):
+        soialEngineer()
+      else:
+          soialEngineer()
+    elif(str(choose6) == '2'):
+        hacking()
+def camhackers():
+    time.sleep(1)
+    os.system("clear")
+    os.system("figlet cam Hackers")
+    print("{1}.cam Hackers")
+    print("{2}.cam hackers(2)")
+    print("{3}.main menu")
+    choose7 = str(input(HackTools))
+    if(str(choose7) == '1'):
+      time.sleep(1)
+      os.system("clear")
+      os.system("figlet cam Hackers")
+      os.system("git clone https://github.com/msprogrammer2938/cam-Hackers")
+      time.sleep(2)    
+      try15 = str(input("press Enter... "))
+      if(str(try15) == ''):
+        camhackers()
+      else:
+          camhackers()
+    elif(str(choose7) == '2'):
+        time.sleep(1)
+        os.system("clear")
+        os.system("figlet cam Hackers")
+        os.system("git clone https://github.com/AngelSecurityTeam/Cam-Hackers")
+        time.sleep(2)
+        try16 = str(input("press Enter... "))
+        if(str(try16) == ''):
+          camhackers()
+        else:
+            camhackers()
+    elif(str(choose7) == '3'):
+        hacking()
+    elif(str(choose7) == '' or ' ' or '\n' or '\r'):
+        camhackers()
+def webinfo():
+    time.sleep(1)
+    os.system("clear")
+    print(color.blue)
+    os.system("figlet web informtion")
+    print(color.End)
+    print("{1}.web-information-gathering")
+    print("{2}.serverscan")
+    print("{3}.mein menu")
+    choose8 = str(input(HackTools))
+    if(str(choose8) == '1'):
+      time.sleep(1)
+      os.system("clear")
+      os.system("figlet web informtion")
+      os.system("git clone https://github.com/zahidin/web-information-gathering/ webinfomtion/")
+      time.sleep(2)
+      try18 = str(input("press Enter... "))
+      if(str(try18) == ''):
+        webinfo()
+      else:
+          webinfo()
+    elif(str(choose8) == '2'):
+        time.sleep(1)
+        os.system("clear")
+        os.system("figlet serverscan")
+        os.system("git clone https://github.com/msprogrammer2938/serverscan")
+        time.sleep(2)
+        try17 = str(input("press Enter... "))
+        if(str(try17) == ''):
+          webinfo()
+        else:
+            webinfo()
+    elif(str(choose8) == '3'):
+        hacking()
+    elif(str(choose8) == '' or ' ' or '\n' or '\r'):
+        webinfo()
+def about():
+    os.system("clear")
+    time.sleep(1)
+    print(color.line)
+    os.system("figlet HackTools")
+    print("\n")
+    time.sleep(0.5)
+    print("This code write by Ms.nope\n")
+    time.sleep(0.5)
+    print("ms.nope github account : https://github.com/msprogrammer2938/\n")
+    time.sleep(1)
+    print("version 1.2.0\n")
+    time.sleep(2)
+    try15 = str(input("press Enter... "))
+    if(str(try15) == ''):
+      hacking()
+    else:
+        hacking()
+def help():
+    time.sleep(1)
+    os.system("clear")
+    print("""
+This code write by (Ms.nope)
+usage:
+     {1} - install web hacking tools
+     {2} - password attacking tools
+     {3} - explotion tools
+     {4} - wirless attacking tools
+     {5} - soial Enginner tools
+     {6} - cam hackers
+     {7} - web informtion
+     {8} - About us
+     {9} - Help
+     {10} - Exit """)
+    time.sleep(2)
+    try16 = str(input("press Enter... "))
+    if(str(try16) == ''):
+      hacking()
+    else:
+        hacking()
+def upun():
+    time.sleep(1)
+    os.system("clear")
+    print(color.blue)
+    os.system("toilet Hackingtool")
+    print(color.End)
+    print("\n{1}.update")
+    print("{2}.uninstall")
+    print("{3}.mein menu")
+    choose10 = str(input(HackTools))
+    if(str(choose10) == '1'):
+      os.system("clear")
+      time.sleep(2)
+      os.system("cd .. && sudo rm -r hackingtools && git clone https://github.com/msprogrammer2938/hackingtools && cd .. && cd hackingtools && ls")
+      time.sleep(1)
+      print(color.green + "finish!" + color.End)
+      print("""
+usage:
+      bash install.sh""")
+      exit(1)
+    elif(str(choose10) == '2'):
+        time.sleep(1)
+        os.system("clear")
+        print(color.green + "unistalling..." + color.End)
+        time.sleep(2)
+        os.system("cd .. && sudo rm -r hackingtools && cd .. && cd /str/local/bin && sudo rm -r hacking")
+        time.sleep(1)
+        print("hackingtools package uninstalled!")
+        time.sleep(1)
+        print(color.green + "good bye!" + color.End)
+        exit(1)
+    elif(str(choose10) == '3'):
+        hacking()
+    elif(str(choose10) == '' or ' ' or '\n' or '\r'):
+        upun()
+
+hacking()
