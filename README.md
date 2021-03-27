@@ -1,7 +1,12 @@
 # hackingtools
-# This code write by (Ms.nope)
-usage:
-     bash install.sh
------------------------------
-usage for run:
-              hacking
+--------------------
+This code write by (Ms.nope)
+--------------------
+
+**Installing**
+```
+git clone https://github.com/msprogrammer2938/hackingtools.git
+cd hackingtools
+chmod +x install.sh
+./install.sh
+hacking
