@@ -505,7 +505,7 @@ def about():
     time.sleep(1)
     print("version 1.2.0\n")
     time.sleep(2)
-    try15 = str(input("press Enter... "))
+    try15 = str(input("\npress Enter... "))
     if(str(try15) == ''):
       hacking()
     else:
@@ -567,5 +567,4 @@ usage:
         hacking()
     elif(str(choose10) == '' or ' ' or '\n' or '\r'):
         upun()
-
-hacking()
+        hacking()
