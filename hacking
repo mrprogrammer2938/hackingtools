@@ -557,7 +557,7 @@ usage:
         os.system("clear")
         print(color.green + "unistalling..." + color.End)
         time.sleep(2)
-        os.system("cd .. && sudo rm -r hackingtools && cd .. && cd /str/local/bin && sudo rm -r hacking")
+        os.system("cd .. && sudo rm -r hackingtools && cd .. && cd /usr/local/bin && sudo rm -r hacking")
         time.sleep(1)
         print("hackingtools package uninstalled!")
         time.sleep(1)
