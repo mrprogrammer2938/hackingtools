@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# This code write by (ms.nope)
+# This code write by (Mr.nope)
 #   ❚█══Hack Tools══█❚
 # version 
 import os
@@ -7,6 +7,7 @@ import time
 import random
 import socket
 import requests
+import sys
 class color:
     green = '\033[92m'
     red = '\033[91m'
@@ -41,10 +42,10 @@ color_r=[color.green + """
     ║▒▒\
     ║░▒ ║
     ║░▒║    (HackTools)
-    ║░▒ ║   (Ms.nope)
-    ║░▒║    (version)
+    ║░▒ ║   (Mr.nope)
+    ║░▒║    (version):(1.3.0)
     ║░▒║    
-    ║░▒ ║ """ + color.red + "----[ https://github.com/msprogrammer2938/ ]----- " + color.blue + """
+    ║░▒ ║ """ + color.red + "----[ https://github.com/mrprogrammer2938/ ]----- " + color.blue + """
     ║░▒║
     ║░▒ ║
     ║░▒║
@@ -116,9 +117,9 @@ def hacking():
     print(HackToolslogo + "\n")
     print(color.red + """
 ______________________________________________""" + color.blue + """
-  ----[ This code write by (ms.nope)  ]----
+  ----[ This code write by (Mr.nope)  ]----
   [version 1.0.0]""" + color.red + """
-  [[  ms.nope github account : https://github.com/msprogrammer2938/ ]]---""" + color.darkblue + """
+  [[  Mr.nope github account : https://github.com/mrprogrammer2938/ ]]---""" + color.darkblue + """
    *   usage:    hackingtool          ---[for start ]--  *""" + color.line + """
                          (Hack tools)""" + color.red + """
                    ______________________________________________ \n""" + color.End)
@@ -221,7 +222,7 @@ def webhacking():
          time.sleep(1)
          os.system("clear")
          os.system("figlet serverscan")
-         os.system("git clone https://github.com/msprogrammer2938/serverscan")
+         os.system("git clone https://github.com/mrprogrammer2938/serverscan")
          time.sleep(1)
          print(color.green + "serverscan installed!" + color.End)
          time.sleep(2)
@@ -434,7 +435,7 @@ def camhackers():
       time.sleep(1)
       os.system("clear")
       os.system("figlet cam Hackers")
-      os.system("git clone https://github.com/msprogrammer2938/cam-Hackers")
+      os.system("git clone https://github.com/mrprogrammer2938/cam-Hackers")
       time.sleep(2)    
       try15 = str(input("press Enter... "))
       if(str(try15) == ''):
@@ -481,7 +482,7 @@ def webinfo():
         time.sleep(1)
         os.system("clear")
         os.system("figlet serverscan")
-        os.system("git clone https://github.com/msprogrammer2938/serverscan")
+        os.system("git clone https://github.com/mrprogrammer2938/serverscan")
         time.sleep(2)
         try17 = str(input("press Enter... "))
         if(str(try17) == ''):
@@ -501,7 +502,7 @@ def about():
     time.sleep(0.5)
     print("This code write by Ms.nope\n")
     time.sleep(0.5)
-    print("ms.nope github account : https://github.com/msprogrammer2938/\n")
+    print("ms.nope github account : https://github.com/mrprogrammer2938/\n")
     time.sleep(1)
     print("version 1.2.0\n")
     time.sleep(2)
@@ -514,7 +515,7 @@ def help():
     time.sleep(1)
     os.system("clear")
     print("""
-This code write by (Ms.nope)
+This code write by (Mr.nope)
 usage:
      {1} - install web hacking tools
      {2} - password attacking tools
@@ -545,7 +546,7 @@ def upun():
     if(str(choose10) == '1'):
       os.system("clear")
       time.sleep(2)
-      os.system("cd .. && sudo rm -r hackingtools && git clone https://github.com/msprogrammer2938/hackingtools && cd .. && cd hackingtools && ls")
+      os.system("cd .. && sudo rm -r hackingtools && git clone https://github.com/mrprogrammer2938/hackingtools && cd .. && cd hackingtools && ls")
       time.sleep(1)
       print(color.green + "finish!" + color.End)
       print("""
@@ -567,4 +568,10 @@ usage:
         hacking()
     elif(str(choose10) == '' or ' ' or '\n' or '\r'):
         upun()
-hacking()
+if __name__ == '__main__':
+    try:
+        hackingtool()
+    except KeyboardInterrupt:
+        print("\nCtrl + C")
+        print("Exiting...")
+        sys.exit()
