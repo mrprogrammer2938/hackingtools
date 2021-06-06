@@ -14,5 +14,5 @@ chmod +x install.sh
 
 hacking
 ```
-## [Mr.nope](https://github.com/mrprogrammer2938) Account:
-[Instagram](https://instagram.com/programmer2938/)
+## [Mr.nope](https://github.com/mrprogrammer2938) Account...
+[Instagram](https://instagram.com/programmer2938)
