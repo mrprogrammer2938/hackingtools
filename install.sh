@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-# This code write by (Ms.nope)
+# This code write by (Mr.nope)
 clear
 echo "installing..."
 echo ""
@@ -20,3 +20,5 @@ echo ""
 echo "finish!"
 echo ""
 echo "usage: hacking"
+echo ""
+exit 1
