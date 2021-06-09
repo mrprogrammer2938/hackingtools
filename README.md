@@ -17,6 +17,11 @@ chmod +x install.sh
 
 hacking
 ```
+##### This Programm Run as Root!
+***Run Root***
+```
+sudo su
+```
 
 #### Updaing...
 ```
