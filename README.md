@@ -18,5 +18,12 @@ chmod +x install.sh
 hacking
 ```
 
+#### Updaing...
+```
+cd Update
+
+./update
+```
+
 ## [Mr.nope](https://github.com/mrprogrammer2938) Account...
 [Instagram](https://instagram.com/programmer2938)
