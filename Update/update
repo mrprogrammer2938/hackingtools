@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+# This code write by Mr.nope
+if [[ "$id -u" -ne 0 ]]; then
+  echo ""
+  echo "Please Run Programm as Root!"
+  exit 1
+fi
+clear
+echo "Updaing..."
+sleep 2
+cd .. && cd .. && rm -r hackingtools && git clone https://github.com/mrprogrammer2938/hackingtools && cd hackingtools && bash install.sh
+echo ""
+echo "Updaing..., Finish...!"
+echo ""
+exit 1
