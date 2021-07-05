@@ -18,6 +18,7 @@ echo "               (🅗🅐🅒🅚🅘🅝🅖)"
 echo ""
 apt install python3
 apt install python
+apt install figlet
 pip install requirments.txt
 chmod a+x hacking
 sleep 1
